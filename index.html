@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Stats preview card component</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      body {
+        background-color: hsl(233, 47%, 7%);
+      }
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+        color: white;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .card {
+        background-color: hsl(244, 38%, 16%);
+        color: white;
+        border-radius: 3%;
+        margin: 150px auto;
+        height: 400px;
+        width: 1000px;
+      }
+      .header-img {
+        border-radius: 0 3% 3% 0;
+        float: right;
+        height: 400px;
+        width: 510px;
+        background-image: linear-gradient(
+            to bottom,
+            rgba(173, 53, 220, 0.52),
+            rgba(117, 19, 93, 0.73)
+          ),
+          url("images/image-header-desktop.jpg");
+      }
+      .heading {
+        font-family: "Inter", sans-serif;
+        padding: 50px;
+        padding-bottom: 0;
+        color: hsl(0, 0%, 100%);
+      }
+      .para {
+        padding: 20px 50px 50px;
+        color: hsla(0, 0%, 100%, 0.75);
+        font-family: "Lexend Deca", sans-serif;
+      }
+      .stats {
+        font-family: "Inter", sans-serif;
+        color: hsl(0, 0%, 100%);
+        padding-left: 20px;
+        margin: 30px;
+      }
+      .s1 {
+        padding-left: 10px;
+        margin: 30px;
+        font-family: "Lexend Deca", sans-serif;
+        color: hsla(0, 0%, 100%, 0.75);
+      }
+      .heading-stats {
+        margin-bottom: 0;
+      }
+      .st {
+        margin-top: 0;
+      }
+      .insight {
+        color: rgb(191, 38, 191);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+      <div class="header-img"></div>
+      <h1 class="heading">
+        Get <span class="insight">insights</span> that help <br />your business
+        grow.
+      </h1>
+      <p class="para">
+        Discover the benefits of data analytics and make <br />better decisions
+        regarding revenue, customer<br />experience, and overall efficiency.
+      </p>
+
+      <h2 class="heading-stats">
+        <span class="stats">10k+</span>
+        <span class="stats">314</span>
+        <span class="stats">12M+</span>
+      </h2>
+      <p class="st">
+        <span class="s1">companies</span>
+        <span class="s1">templates</span>
+        <span class="s1">queries</span>
+      </p>
+    </div>
+
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+        >Frontend Mentor</a
+      >. Coded by
+      <a href="https://www.linkedin.com/in/naman-0308321a9/">Naman</a>.
+    </div>
+  </body>
+</html>
